@@ -1,5 +1,5 @@
 {
-  "name": "read-files",
+  "name": "file-parsers",
   "version": "1.0.0",
   "description": "Provides File constructors for wide varitey of extensions",
   "main": "index.js",
