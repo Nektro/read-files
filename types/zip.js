@@ -40,6 +40,7 @@
                 case 0: // The file is stored (no compression)
                     return Promise.resolve(ta_str(this.raw));
                 default:
+                    console.warn('Unknown compression method, sending raw data!');
                     return new Promise((resolve, reject) => {
                         resolve(this.raw);
                     });
